@@ -1,0 +1,13 @@
+name = "JuliaConSamplePackage"
+uuid = "8c8e758a-bbe1-4ee8-943d-554ec49b23d7"
+authors = ["Tate Taczak <s19btaczak@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
